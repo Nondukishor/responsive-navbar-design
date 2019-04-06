@@ -3,8 +3,16 @@ import React from 'react';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 
+
+const navbarStyle={
+  toolbar:{
+    background: 'green'
+  }
+}
+
+
 const Toolbar = props => (
-  <header className="toolbar">
+  <header className="toolbar"  style={navbarStyle.toolbar}>
     <nav className="toolbar__navigation">
         <div className="toolbar__toggle-button">
             <DrawerToggleButton click={props.drawerClickHandler} />
