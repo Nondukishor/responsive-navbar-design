@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Toolbar from './components/Toolbar/Toolbar';
-import SideDrawer from './components/SideDrawer/SideDrawer';
-import Backdrop from './components/Backdrop/Backdrop';
+import Toolbar from './components/cssnav/Toolbar/Toolbar';
+import SideDrawer from './components/cssnav/SideDrawer/SideDrawer';
+import Backdrop from './components/cssnav/Backdrop/Backdrop';
 
 class App extends Component {
   state = {
